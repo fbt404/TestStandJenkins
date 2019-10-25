@@ -4,6 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'test'
+                bat 'python --version'
             }
         }
     }
